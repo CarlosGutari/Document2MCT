@@ -1,0 +1,6 @@
+[theme]
+base = "dark"
+primaryColor="#198700"
+
+[client]
+showSidebarNavigation = false
