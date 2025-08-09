@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_extras.buy_me_a_coffee import button
 
 st.set_page_config(page_title="App Multipágina", page_icon="🌟")
 
@@ -17,4 +16,3 @@ with col2:
     if st.button("Ir a Upload/Download"):
         st.switch_page("pages/aux.py")
                 
-button(username="fake-username", floating=True, width=250)
